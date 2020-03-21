@@ -1,0 +1,54 @@
+/* NAVIGATION BAR STYLING */
+  .nav{
+    background-color: white;
+    list-style:none;
+    margin-top:3%;
+    padding:0;
+    text-align:center;
+    font-family: 'Playfair Display', serif;
+    text-transform: uppercase;
+  }
+  .nav li{
+  display:inline;
+  }
+  .nav a{
+    display:inline-block;
+    float: center;
+    width: auto;
+    background-color: white;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 25px;
+  }
+  .nav a:hover {
+    background-color: #e8e8e8;
+    color: black;
+  /* Want to remove background and just have outline of box on hover */
+  }
+  .nav a.active {
+    background-color: #d1d1d1;
+    color: black;
+}
+
+
+/* ABOUT ME - MAIN */
+  .about-me-header{
+    font-size: 200px;
+    font-weight: normal;
+    margin: 10px 0px;
+    font-family: 'Six Caps', sans-serif;
+  }
+  .about-me-body{
+    font-family: 'Raleway', serif;
+    padding-left: 5%;
+    padding-right: 5%;
+    font-size: 30px;
+  }
+  .high-school{
+    width: 50%;
+    align: left;
+    
+
+  }
